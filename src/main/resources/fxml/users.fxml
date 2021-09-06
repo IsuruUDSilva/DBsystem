@@ -5,11 +5,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="userAnchorPane" maxHeight="768.0" maxWidth="1366.0" minHeight="768.0" minWidth="1366.0" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UsersController">
+<AnchorPane fx:id="userAnchorPane" maxHeight="768.0" maxWidth="1366.0" minHeight="661.0" minWidth="1222.0" prefHeight="661.0" prefWidth="1222.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UsersController">
    <children>
-      <BorderPane maxHeight="768.0" maxWidth="1366.0" minHeight="768.0" minWidth="1366.0" prefHeight="768.0" prefWidth="1366.0">
+      <BorderPane layoutX="18.0" layoutY="7.0" maxHeight="768.0" maxWidth="1399.0" minHeight="651.0" minWidth="1179.0" prefHeight="651.0" prefWidth="1191.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
          <center>
-            <TableView fx:id="userTable" onMouseClicked="#getSelectedRow" prefHeight="500" prefWidth="800">
+            <TableView fx:id="userTable" onMouseClicked="#getSelectedRow" prefHeight="550.0" prefWidth="1167.0">
                <BorderPane.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </BorderPane.margin>
@@ -23,10 +23,10 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                      <HBox.margin>
-                        <Insets right="500.0" />
+                        <Insets right="400.0" />
                      </HBox.margin>
                   </Label>
-                  <HBox prefHeight="40.0" prefWidth="309.0" spacing="5.0">
+                  <HBox prefHeight="40.0" prefWidth="254.0" spacing="5.0">
                      <children>
                         <TextField prefHeight="26.0" prefWidth="167.0" />
                         <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="67.0" text="Search">
@@ -36,10 +36,13 @@
                         </Button>
                      </children>
                   </HBox>
-                  <Button fx:id="addBtn" mnemonicParsing="false" onAction="#addUser" prefHeight="25.0" prefWidth="88.0" text="Add" />
-                  <Button fx:id="updateBtn" mnemonicParsing="false" onAction="#updateEmployee" prefHeight="25.0" prefWidth="96.0" text="Update" />
-                  <Button fx:id="deleteBtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Delete" />
-                  <Button mnemonicParsing="false" onAction="#loadExit" prefHeight="26.0" prefWidth="94.0" text="Exit" />
+                  <Button fx:id="addBtn" mnemonicParsing="false" onAction="#addUser" prefHeight="26.0" prefWidth="63.0" text="Add" />
+                  <Button fx:id="updateBtn" mnemonicParsing="false" onAction="#updateEmployee" prefHeight="26.0" prefWidth="71.0" text="Update" />
+                  <Button fx:id="deleteBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="69.0" text="Delete">
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin></Button>
+                  <Button mnemonicParsing="false" onAction="#loadExit" prefHeight="26.0" prefWidth="52.0" text="Exit" />
                </children>
                <padding>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />

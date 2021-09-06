@@ -44,7 +44,8 @@ public class EmployeeService extends BaseEntityService implements EmployeeServic
     }
 
     @Override
-    public Employee getActiveEmployeeByUserName(String userName) {
+    public Employee getActiveEmployeeByUserName(String userName)
+    {
         try {
             String sql = Const.ACTIVE_EMPLOYEE_SELECT + Const.AND + "m01UserName = :userName";
             Map<String, Object> queryParams = new HashMap<String, Object>();

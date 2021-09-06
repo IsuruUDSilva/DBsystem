@@ -50,6 +50,6 @@
             <Insets left="70.0" top="40.0" />
          </padding>
       </VBox>
-      <Button layoutX="521.0" layoutY="338.0" mnemonicParsing="false" onAction="#loadHome" prefHeight="49.0" prefWidth="104.0" text="Exit" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Button layoutX="521.0" layoutY="338.0" mnemonicParsing="false" onAction="#loadHome" prefHeight="50.0" prefWidth="104.0" text="Exit" AnchorPane.bottomAnchor="31.0" AnchorPane.rightAnchor="50.0" />
    </children>
 </AnchorPane>

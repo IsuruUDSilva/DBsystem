@@ -34,7 +34,7 @@
                   <Font size="20.0" />
                </font>
             </Label>
-            <PasswordField id="pWord" fx:id="passWordPassWordField" prefHeight="44.0" prefWidth="321.0" />
+            <PasswordField id="pWord" fx:id="passWordPassWordField" prefHeight="44.0" prefWidth="328.0" />
          </children></HBox>
       <HBox alignment="CENTER" layoutX="1.0" layoutY="255.0" prefHeight="109.0" prefWidth="600.0" spacing="20.0">
          <children>
